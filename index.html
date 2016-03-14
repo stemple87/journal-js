@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Journal Entry Counter!</title>
+  </head>
+  <body>
+    <h1>Journal Entry</h1>
+    <hr />
+    <form id="form-entry" action="index.html" method="post">
+      <label for="title">Title:</label>
+      <input id="titleId" type="text" name="title" value="">
+      <br><br>
+      <textarea id ="textAreaId" name="ourtextarea" rows="8" cols="40">Type your text here</textarea>
+      <br>
+      <button type="submit" name="button">Click here to enter journal entry.</button>
+    </form>
+    <div class="entry-completion">
+      <h1><span id="titleToPage"></span></h1>
+      <p>
+        <span id="paragraphToPage"></span>
+      </p>
+      <p>
+        <span id="outputToPage"></span>
+      </p>
+    </div>
+  </body>
+</html>
