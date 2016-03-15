@@ -1,0 +1,22 @@
+{
+  "name": "bower install jquery --save",
+  "description": "Journal",
+  "main": "index.js",
+  "authors": [
+    "simon <student@epicodus.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/stemple87/journal-js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "moment": "^2.12.0"
+  }
+}
